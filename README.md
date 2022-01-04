@@ -43,3 +43,4 @@ https://github.com/serengil/retinaface
 
 ## Licence
 MIT © Jin Ho Lee
+MIT © Seonggeun Cho
