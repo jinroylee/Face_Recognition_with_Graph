@@ -18,7 +18,7 @@ Then, we utilized the node classification methods of Graph Neural Network in ord
 - **main.inpynb**: Perform node classification 
 
 ## Environment Requirement
-The code has been tested under Python 3.7.12. The required packages are as follows:
+The code has been tested under Python 3.9.6. The required packages are as follows:
 
 * tensorflow == 2.7.0
 * pytorch == 1.3.1
@@ -29,15 +29,17 @@ The code has been tested under Python 3.7.12. The required packages are as follo
 * sklearn == 1.0.1
 
 ## Setup
-- Download weights of pre-trained models of Retinaface and Facenet to the root directory of the project
+- Download weights of pre-trained weights of Retinaface and Facenet to the root directory of the project
 - Place face images in the input_pictures directory
 - follow steps in the main.ipynb file
 
 ## Acknowledgement
 
 **Facenet: A unified embedding for face recognition and clustering**. Florian Schroff, Dmitry Kalenichenko, James Philbin, CVPR, 2015.
+https://github.com/serengil/deepface/blob/90e8c4c4caec484c6a20acef1b6f005c8424de30/deepface/basemodels/Facenet.py
 
 **Retinaface: Single-stage dense face localisation in the wild**. Jiankang Deng, Jia Guo, Yuxiang Zhou, Jinke Yu, Irene Kotsia, Stefanos Zafeiriou, Imperial College London, InsightFace, Middlesex University London, FaceSoft, CVPR, 2019.
+https://github.com/serengil/retinaface
 
 ## Licence
-MIT License
+MIT © Jin Ho Lee
